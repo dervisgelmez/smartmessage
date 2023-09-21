@@ -1,0 +1,28 @@
+{
+  "name": "dervis/smartmessage",
+  "type": "library",
+  "description": "Smartmessage Api Package",
+  "keywords": ["smartmessage", "sms"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dervis Gelmez",
+      "email": "gelmezdervis@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/dervisgelmez/smartmessage/issues",
+    "source": "https://github.com/dervisgelmez/smartmessage"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "SmartMessage\\" : "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  }
+}
